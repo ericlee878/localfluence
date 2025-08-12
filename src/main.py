@@ -27,6 +27,7 @@ from src.prompts.veo_prompt_generator import veo_prompt_stage1, veo_prompt_stage
 
 
 # python main.py "Hamiltons" "174 E Magnolia Ave, Auburn, AL 36830, USA"
+# python main.py "Matcha Magic" "10246 Main St A, Bellevue, WA 98004"
 def main() -> Optional[str]:
     """
     Main function to get the VEO3 prompt for a business
